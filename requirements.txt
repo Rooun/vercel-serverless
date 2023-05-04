@@ -1,8 +1,5 @@
-from flask import Flask, request
-import requests
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello World'
+Flask==1.1.2
+Werkzeug==1.0.0
+uvicorn
+requests
+pydantic
