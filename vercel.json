@@ -1,12 +1,10 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "regions": ["hkg1"],
-    "build": [{
-        "src": "./blueprint/server.py",
-        "use": "@vercel/python"
-    }],
-    "routers": [{
-        "src": "/(.*)",
-        "dest": "/"
-    }]
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/index"
+        }
+    ]
 }
