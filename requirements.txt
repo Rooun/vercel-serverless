@@ -1,7 +1,7 @@
 Flask
 Flask-Cors
 requests
-logger
+logging
 PyJWT
 urllib3
 psycopg2-binary
