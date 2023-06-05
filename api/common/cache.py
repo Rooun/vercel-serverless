@@ -1,4 +1,4 @@
-from common import auth
+from api.common import auth
 from flask import Blueprint, Flask, send_file, request, jsonify, make_response, render_template
 
 cache_module = Blueprint('cache', __name__, url_prefix='/api/v1/cache')

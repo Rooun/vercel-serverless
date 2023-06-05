@@ -1,6 +1,6 @@
 import json
 import psycopg2
-from common.log import logger
+from api.common.log import logger
 
 POSTGRES_SERVER = ['welostyou.host', "30010"]
 

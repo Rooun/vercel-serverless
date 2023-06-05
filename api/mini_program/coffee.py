@@ -2,8 +2,8 @@ import time
 import json
 import requests
 import datetime
-from common import auth
-from common import postgres
+from api.common import auth
+from api.common import postgres
 from flask import Blueprint, Flask, send_file, request, jsonify, make_response, render_template
 
 mp_coffee_module = Blueprint('mp_coffee', __name__, url_prefix='/api/v1/mp/coffee')
