@@ -1,0 +1,276 @@
+2023-06-04 15:42:24,086 _internal.py:186 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2000
+ * Running on http://10.0.4.15:2000
+2023-06-04 15:42:24,086 _internal.py:186 [INFO] [33mPress CTRL+C to quit[0m
+2023-06-04 15:42:24,088 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 15:42:24,382 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 15:42:24,383 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 15:42:29,948 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 15:42:29] "GET /api/v1 HTTP/1.0" 200 -
+2023-06-04 15:42:31,058 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 15:42:31] "GET /api/v1 HTTP/1.0" 200 -
+2023-06-04 15:53:45,663 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 15:53:45] "[33mGET /api/chat-process HTTP/1.0[0m" 404 -
+2023-06-04 16:20:41,227 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/server.py', reloading
+2023-06-04 16:20:41,263 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:21:03,344 _internal.py:186 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2000
+ * Running on http://10.0.4.15:2000
+2023-06-04 16:21:03,345 _internal.py:186 [INFO] [33mPress CTRL+C to quit[0m
+2023-06-04 16:21:03,345 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:21:03,616 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:21:03,616 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:21:25,094 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:21:25] "GET /api/v1 HTTP/1.0" 200 -
+2023-06-04 16:21:36,944 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:21:36] "[33mGET /api/v1/mp/coffee/jscode2session HTTP/1.0[0m" 404 -
+2023-06-04 16:21:42,082 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:21:42] "[33mGET /api/v1/mp/coffee/jscode2session HTTP/1.0[0m" 404 -
+2023-06-04 16:22:34,943 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/server.py', reloading
+2023-06-04 16:22:34,976 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:22:35,237 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:22:35,237 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:22:49,291 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:22:49,324 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:22:49,591 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:22:49,591 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:22:53,476 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:22:53] "[33mGET /api/v1/mp/coffee/jscode2session HTTP/1.0[0m" 404 -
+2023-06-04 16:23:11,676 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:23:11,714 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:23:11,993 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:23:11,993 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:24:16,213 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:24:16,249 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:24:16,519 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:24:16,519 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:24:16,922 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:24:16] "GET /api/v1/mp/coffee/jscode2session HTTP/1.0" 200 -
+2023-06-04 16:24:37,602 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:24:37,663 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:24:37,924 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:24:37,925 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:24:54,993 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:24:55,039 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:42:56,137 _internal.py:186 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2000
+ * Running on http://10.0.4.15:2000
+2023-06-04 16:42:56,139 _internal.py:186 [INFO] [33mPress CTRL+C to quit[0m
+2023-06-04 16:42:56,141 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:42:56,442 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:42:56,443 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:43:04,415 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:43:04] "GET /api/v1/mp/coffee/jscode2session HTTP/1.0" 200 -
+2023-06-04 16:43:08,414 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:43:08] "GET /api/v1/mp/coffee/jscode2session HTTP/1.0" 200 -
+2023-06-04 16:43:34,289 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:43:34] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GXoGa1SHmrF0n9jIa1XBNbR2GXoGq HTTP/1.0" 200 -
+2023-06-04 16:43:59,692 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:43:59,731 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:44:00,040 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:44:00,041 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:44:14,092 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:44:14,136 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:44:14,447 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:44:14,447 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:44:15,674 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:44:15] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GXoGa1SHmrF0n9jIa1XBNbR2GXoGq HTTP/1.0" 200 -
+2023-06-04 16:44:18,317 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:44:18] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GXoGa1SHmrF0n9jIa1XBNbR2GXoGq HTTP/1.0" 200 -
+2023-06-04 16:44:18,974 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:44:18] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GXoGa1SHmrF0n9jIa1XBNbR2GXoGq HTTP/1.0" 200 -
+2023-06-04 16:44:40,489 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:44:40] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1xlv0w3AwBL03VJ92w3b9Eqn4xlv0j HTTP/1.0" 200 -
+2023-06-04 16:46:04,383 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:04] "GET /api/v1/mp/coffee/jscode2session?js_code=0d16rv0w3CxBL03dQ90w36S1b616rv0q HTTP/1.0" 200 -
+2023-06-04 16:46:07,818 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:07] "GET /api/v1/mp/coffee/jscode2session?js_code=0c1kT9Ga1XZfrF0OzVHa1Eitrn4kT9Ge HTTP/1.0" 200 -
+2023-06-04 16:46:17,830 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:17] "GET /api/v1/mp/coffee/jscode2session?js_code=0a133ZGa1OJSpF0e5NIa1d3H3z233ZG3 HTTP/1.0" 200 -
+2023-06-04 16:46:26,574 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:26] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1Ts1000R2K5Q1aMS100Dhteu4Ts10- HTTP/1.0" 200 -
+2023-06-04 16:46:57,994 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:57] "GET /api/v1/mp/coffee/jscode2session?js_code=0e14NF100lZb5Q1cHS2002f4Qg24NF1N HTTP/1.0" 200 -
+2023-06-04 16:46:59,621 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:46:59] "GET /api/v1/mp/coffee/jscode2session?js_code=0d1uNkFa1TIqqF0mFPGa1c7mHJ3uNkFT HTTP/1.0" 200 -
+2023-06-04 16:47:24,040 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:47:24] "GET /api/v1/mp/coffee/jscode2session?js_code=0a1EI7100dRD4Q1PSH200obdZS1EI71s HTTP/1.0" 200 -
+2023-06-04 16:47:25,547 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:47:25] "GET /api/v1/mp/coffee/jscode2session?js_code=0c1KI71005RD4Q1rMx000K7EWV0KI71J HTTP/1.0" 200 -
+2023-06-04 16:47:37,992 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:47:37] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1p8Ekl22Bmqb4ukHml2XoYb10p8Ek2 HTTP/1.0" 200 -
+2023-06-04 16:47:39,523 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:47:39] "GET /api/v1/mp/coffee/jscode2session?js_code=0d16xv0w3ZnBL03xl02w3SCe5h06xv0I HTTP/1.0" 200 -
+2023-06-04 16:47:41,279 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:47:41] "GET /api/v1/mp/coffee/jscode2session?js_code=0d19rXZv3Uh3L039Qu0w3lSHrd29rXZK HTTP/1.0" 200 -
+2023-06-04 16:48:05,849 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:48:05] "GET /api/v1/mp/coffee/jscode2session?js_code=0a1fgcll2kFUqb4Os2nl2x2unZ0fgclf HTTP/1.0" 200 -
+2023-06-04 16:48:26,340 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:48:26,376 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:48:26,687 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:48:26,687 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:50:08,039 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:50:08,077 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:50:08,388 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:50:08,389 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:50:21,446 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 16:50:21,486 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 16:50:21,794 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 16:50:21,794 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 16:50:25,262 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:50:25] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1YiEkl2hClqb4LSUkl2kv76I2YiEkL HTTP/1.0" 200 -
+2023-06-04 16:51:06,971 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:51:06] "GET /api/v1/mp/coffee/jscode2session?js_code=0a143lFa1CJpqF0OWyIa1c24Rl343lFh HTTP/1.0" 200 -
+2023-06-04 16:51:16,341 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:51:16] "GET /api/v1/mp/coffee/jscode2session?js_code=0c1dRz000dbh6Q1UDl0003PUN94dRz0J HTTP/1.0" 200 -
+2023-06-04 16:59:17,893 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:59:17] "GET /api/v1/mp/coffee/jscode2session?js_code=0d1guT1w3V2OK030CA3w3WO7eE1guT10 HTTP/1.0" 200 -
+2023-06-04 16:59:17,919 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:59:17] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 16:59:57,816 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:59:57] "GET /api/v1/mp/coffee/jscode2session?js_code=0e12lj0003F26Q1AK2300OkfpH32lj0p HTTP/1.0" 200 -
+2023-06-04 16:59:57,840 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 16:59:57] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:00:07,294 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:00:07] "GET /api/v1/mp/coffee/jscode2session?js_code=0e19ECFa1gjJqF0aYjGa1hBNN439ECFG HTTP/1.0" 200 -
+2023-06-04 17:00:07,324 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:00:07] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:01:16,796 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:01:16] "GET /api/v1/mp/coffee/jscode2session?js_code=0d1BOaGa15uhrF0XhfIa1BjLrd2BOaGu HTTP/1.0" 200 -
+2023-06-04 17:01:16,820 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:01:16] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:03:51,579 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:03:51,623 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:03:51,940 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:03:51,940 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:07:27,674 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:07:27,717 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:07:28,030 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:07:28,030 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:07:39,033 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:07:39] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1GKw0w3mPDL031JR3w30O8N94GKw0V HTTP/1.0" 200 -
+2023-06-04 17:07:46,082 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:07:46] "GET /api/v1/mp/coffee/jscode2session?js_code=0d114mFa1abtqF0iK8Ja1FRtQF214mF7 HTTP/1.0" 200 -
+2023-06-04 17:07:46,397 postgres.py:28 [ERROR] ERROR CMD: INSERT INTO users(roles,create_at,last_login_at) VALUES('guest','2023-06-04 09:07:46.350058','2023-06-04 09:07:46.350058')
+2023-06-04 17:07:46,454 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:07:46] "[35m[1mPOST /api/v1/login HTTP/1.0[0m" 500 -
+2023-06-04 17:08:40,278 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:08:40,315 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:08:40,623 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:08:40,623 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:08:50,024 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:08:50] "GET /api/v1/mp/coffee/jscode2session?js_code=0d1H4q100wlX4Q1ZSi200DHQxj3H4q1P HTTP/1.0" 200 -
+2023-06-04 17:08:50,112 postgres.py:28 [ERROR] ERROR CMD: INSERT INTO users(roles,create_at,last_login_at) VALUES('guest','2023-06-04 09:08:50.072046','2023-06-04 09:08:50.072046')
+2023-06-04 17:08:50,117 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:08:50] "[35m[1mPOST /api/v1/login HTTP/1.0[0m" 500 -
+2023-06-04 17:10:46,065 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:10:46,107 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:10:46,422 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:10:46,423 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:10:56,137 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:10:56] "GET /api/v1/mp/coffee/jscode2session?js_code=0a1w0k000fe36Q1tpd400iUwXV0w0k0- HTTP/1.0" 200 -
+2023-06-04 17:10:56,392 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:10:56] "[35m[1mPOST /api/v1/login HTTP/1.0[0m" 500 -
+2023-06-04 17:11:38,025 _internal.py:186 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2000
+ * Running on http://10.0.4.15:2000
+2023-06-04 17:11:38,025 _internal.py:186 [INFO] [33mPress CTRL+C to quit[0m
+2023-06-04 17:11:38,026 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:11:38,337 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:11:38,337 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:11:43,360 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:11:43,399 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:11:43,712 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:11:43,713 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:12:05,109 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:12:05] "GET /api/v1/mp/coffee/jscode2session?js_code=0a1nnDFa1dQJqF0FZLIa1B3ExI3nnDFM HTTP/1.0" 200 -
+2023-06-04 17:12:05,160 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:12:05] "[35m[1mPOST /api/v1/login HTTP/1.0[0m" 500 -
+2023-06-04 17:12:24,859 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/auth/auth.py', reloading
+2023-06-04 17:12:24,898 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:12:25,214 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:12:25,214 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:12:32,697 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:12:32] "GET /api/v1/mp/coffee/jscode2session?js_code=0e1LlH100V0e5Q18Ib400N7Eep3LlH1D HTTP/1.0" 200 -
+2023-06-04 17:12:32,829 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:12:32] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:19:21,693 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/common/auth.py', reloading
+2023-06-04 17:19:21,738 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:19:22,066 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:19:22,066 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:19:27,090 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/common/auth.py', reloading
+2023-06-04 17:19:27,156 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:19:27,465 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:19:27,465 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:31:03,839 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:31:03,884 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:31:04,211 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:31:04,211 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:31:58,396 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:31:58,438 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:31:58,747 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:31:58,747 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:32:48,488 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:48] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GAnFa1wxmqF0r6vGa1cgEyS0GAnFL HTTP/1.0" 200 -
+2023-06-04 17:32:48,786 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:48] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:32:48,805 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:48] "[31m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 403 -
+2023-06-04 17:32:53,898 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:53] "GET /api/v1/mp/coffee/jscode2session?js_code=0d1bo61w3SYSJ038Cb4w3jnnWf0bo61E HTTP/1.0" 200 -
+2023-06-04 17:32:54,149 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:54] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:32:54,168 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:32:54] "[31m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 403 -
+2023-06-04 17:33:31,770 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:33:31] "GET /api/v1/mp/coffee/jscode2session?js_code=0e1rGEFa1GFDqF0QspIa1rlBKc3rGEF9 HTTP/1.0" 200 -
+2023-06-04 17:33:31,823 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:33:31] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:33:33,469 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:33:33] "GET /api/v1/mp/coffee/jscode2session?js_code=0e18xa100nIz4Q19Fk000I865I28xa1I HTTP/1.0" 200 -
+2023-06-04 17:33:33,533 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:33:33] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:33:33,559 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:33:33] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:34:20,484 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:20] "GET /api/v1/mp/coffee/jscode2session?js_code=0b10rl000oXW5Q1bJ7100Mw14G00rl0r HTTP/1.0" 200 -
+2023-06-04 17:34:20,604 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:20] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:34:20,627 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:20] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:34:28,880 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:28] "GET /api/v1/mp/coffee/jscode2session?js_code=0b18TtGa16qgpF0QwyJa1Wrqf038TtGN HTTP/1.0" 200 -
+2023-06-04 17:34:28,939 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:28] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:34:28,977 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:28] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:34:51,273 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:51] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1Up4000JKF5Q17Hi0002zOD11Up40d HTTP/1.0" 200 -
+2023-06-04 17:34:51,349 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:51] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:34:51,370 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:34:51] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:35:08,401 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:35:08,442 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:35:08,755 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:35:08,756 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:35:10,721 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:10] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1MtP0w3gaOL03y1c3w3yJUSx2MtP0b HTTP/1.0" 200 -
+2023-06-04 17:35:10,781 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:10] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:35:10,802 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:10] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:35:21,606 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:21] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1mNEFa1LrDqF0umrHa1YzOnK2mNEF7 HTTP/1.0" 200 -
+2023-06-04 17:35:21,659 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:21] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:35:21,681 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:35:21] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:36:31,046 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:36:31,091 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:36:31,411 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:36:31,412 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:36:33,424 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:36:33,466 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:36:33,779 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:36:33,780 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:36:35,627 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:36:35] "GET /api/v1/mp/coffee/jscode2session?js_code=0b13VVFa1MxUqF0GYKGa1j4bi033VVFX HTTP/1.0" 200 -
+2023-06-04 17:36:36,314 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:36:36] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:36:36,350 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:36:36] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:36:54,186 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:36:54] "[33mGET /api/session HTTP/1.0[0m" 404 -
+2023-06-04 17:36:55,856 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:36:55,899 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:36:56,211 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:36:56,211 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:37:00,389 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:37:00] "GET /api/v1/mp/coffee/jscode2session?js_code=0b1GAP0w3gDOL03sp80w3MMNOe0GAP0x HTTP/1.0" 200 -
+2023-06-04 17:37:00,488 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:37:00] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:37:00,521 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:37:00] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:38:44,119 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:38:44] "GET /api/v1/mp/coffee/jscode2session?js_code=0c1lTV1w3cmIK03txr2w3x86Wf0lTV1c HTTP/1.0" 200 -
+2023-06-04 17:38:44,187 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:38:44] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:38:44,213 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:38:44] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:49:46,272 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:49:46] "GET /api/v1 HTTP/1.0" 200 -
+2023-06-04 17:50:10,929 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:10] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:12,717 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:12] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:13,099 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:13] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:13,264 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:13] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:13,460 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:13] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:13,977 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:13] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:14,718 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:50:14] "[31m[1mGET /api/v1/mp/chatgpt/appsecret HTTP/1.0[0m" 403 -
+2023-06-04 17:50:47,068 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/common/auth.py', reloading
+2023-06-04 17:50:47,109 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:50:47,416 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:50:47,417 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:50:57,457 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:50:57,499 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:50:57,811 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:50:57,812 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:51:10,156 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:51:10] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1PlDml2YG0qb4fZ8nl2TanAP1PlDmJ HTTP/1.0" 200 -
+2023-06-04 17:51:10,466 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:51:10] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:51:12,967 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:51:12] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1Msm000SbW5Q1HRF300CSqjD4Msm0J HTTP/1.0" 200 -
+2023-06-04 17:51:13,049 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:51:13] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:51:13,074 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:51:13] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:51:44,981 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/common/auth.py', reloading
+2023-06-04 17:51:45,020 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:54:59,093 _internal.py:186 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2000
+ * Running on http://10.0.4.15:2000
+2023-06-04 17:54:59,093 _internal.py:186 [INFO] [33mPress CTRL+C to quit[0m
+2023-06-04 17:54:59,094 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:54:59,407 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:54:59,407 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:57:24,526 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:57:24] "[33mGET /api/v1/mp/coffee HTTP/1.0[0m" 404 -
+2023-06-04 17:57:36,247 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:57:36] "[31m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 403 -
+2023-06-04 17:58:06,916 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:06] "GET /api/v1/mp/coffee/jscode2session?js_code=0f1RSm000fQY5Q1ANL200tBQLy4RSm06 HTTP/1.0" 200 -
+2023-06-04 17:58:07,061 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:07] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:58:09,988 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:09] "GET /api/v1/mp/coffee/jscode2session?js_code=0c1HV71w3OTUJ03C1a2w3JtvdY0HV71c HTTP/1.0" 200 -
+2023-06-04 17:58:10,075 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:10] "POST /api/v1/login HTTP/1.0" 200 -
+2023-06-04 17:58:10,104 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:10] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:58:18,125 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:18] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:58:27,349 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:27] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:58:54,204 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/common/auth.py', reloading
+2023-06-04 17:58:54,247 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:58:54,561 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:58:54,561 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:58:54,622 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:54] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:58:55,326 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:55] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:58:55,941 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:58:55] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
+2023-06-04 17:59:14,634 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:59:14,675 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:59:15,023 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:59:15,023 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:59:15,791 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:59:15] "GET /api/v1/mp/coffee/labels HTTP/1.0" 200 -
+2023-06-04 17:59:25,067 _internal.py:186 [INFO]  * Detected change in '/home/lh/server/blueprint/mini_program/coffee.py', reloading
+2023-06-04 17:59:25,104 _internal.py:186 [INFO]  * Restarting with stat
+2023-06-04 17:59:25,407 _internal.py:186 [WARNING]  * Debugger is active!
+2023-06-04 17:59:25,407 _internal.py:186 [INFO]  * Debugger PIN: 106-433-165
+2023-06-04 17:59:27,124 _internal.py:186 [INFO] 127.0.0.1 - - [04/Jun/2023 17:59:27] "[35m[1mGET /api/v1/mp/coffee/labels HTTP/1.0[0m" 500 -
