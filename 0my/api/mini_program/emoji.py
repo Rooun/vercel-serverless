@@ -1,7 +1,7 @@
 import os
 import time
 import datetime
-# from api.common import auth
+from api.common import auth
 from flask import Blueprint, Flask, send_file, request, jsonify, make_response, render_template
 
 mp_emoji_module = Blueprint('mp_emoji', __name__, url_prefix='/api/v1/mp/emoji')

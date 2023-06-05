@@ -1,6 +1,3 @@
-Flask
-Flask-Cors
-requests
-PyJWT
-urllib3
-psycopg2-binary
+# Web API
+flask==1.0.2
+

@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+requests
+PyJWT
+urllib3
+psycopg2-binary
