@@ -1,9 +1,9 @@
 import urllib3
 from flask import Flask, jsonify
-from api.common.log import logger
+# from api.common.log import logger
 # from api.auth.auth import auth_module
 # from api.common.cache import cache_module
-# from api.mini_program.emoji import mp_emoji_module
+from api.mini_program.emoji import mp_emoji_module
 # from api.mini_program.coffee import mp_coffee_module
 # from api.mini_program.chatgpt import mp_chatgpt_module
 
@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True)
 # app.register_blueprint(auth_module)
 # app.register_blueprint(cache_module)
-# app.register_blueprint(mp_emoji_module)
+app.register_blueprint(mp_emoji_module)
 # app.register_blueprint(mp_coffee_module)
 # app.register_blueprint(mp_chatgpt_module)
 
