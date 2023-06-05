@@ -1,7 +1,7 @@
 import time
 import datetime
-from common import auth
-from common import postgres
+from api.common import auth
+from api.common import postgres
 from flask import Blueprint, Flask, send_file, request, jsonify, make_response, render_template
 
 auth_module = Blueprint('auth', __name__, url_prefix='/api/v1')
