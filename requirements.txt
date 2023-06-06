@@ -1,7 +1,5 @@
-# Web API
-flask==1.0.2
-jinja2==2.11.3
-markupsafe==2.0.1
-itsdangerous==2.0.1
-connexion
-Werkzeug==0.16.1
+Flask
+requests
+PyJWT
+urllib3
+psycopg2-binary
