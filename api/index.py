@@ -185,7 +185,7 @@ def v1_login():
         return jsonify({'code': 400, 'data': {}, 'msg': 'Input parameter error'})
 
     if username in CACHE["tokens"]:
-        return jsonify({'code': 0, 'data': json.loads(CACHE["tokens"][username]), 'msg': 'successfully registered and logged in'})
+        return jsonify({'code': 0, 'data': CACHE["tokens"][username], 'msg': 'successfully registered and logged in'})
 
     global jwt_key
     is_sign_up = False
@@ -277,10 +277,10 @@ def mp_coffee_get_labels():
     username = get_jwt_username(request.headers.get('Authorization'))
 
     if username in CACHE["labels"]:
-        return jsonify({'code': 0, 'data': json.loads(CACHE["labels"][username]), 'msg': ''})
+        return jsonify({'code': 0, 'data': CACHE["labels"][username], 'msg': ''})
 
     for row in PG_Select_to_array("SELECT labels FROM mp_coffee WHERE openid = '{}'".format(username)):
-        CACHE["labels"][username] = row[0]
+        CACHE["labels"][username] = json.loads(row[0])
         return jsonify({'code': 0, 'data': json.loads(row[0]), 'msg': ''})
 
     labels = [{
