@@ -18,7 +18,7 @@ CACHE = {
 
 
 JWT_KEY= 'root@looham.com'
-POSTGRES_SERVER = ['150.158.182.123', "30010"]
+POSTGRES_SERVER = ['welostyou.host', "30010"]
 
 
 
