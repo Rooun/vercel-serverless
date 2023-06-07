@@ -11,6 +11,11 @@ from flask import Flask, send_file, request, jsonify, make_response, render_temp
 
 app = Flask(__name__)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+CACHE = {
+    "tokens": {},
+    "labels": {}
+}
+
 
 JWT_KEY= 'root@looham.com'
 POSTGRES_SERVER = ['welostyou.host', "30010"]
@@ -179,6 +184,9 @@ def v1_login():
     if username == "" or password == "":
         return jsonify({'code': 400, 'data': {}, 'msg': 'Input parameter error'})
 
+    if username in CACHE["tokens"]:
+        return jsonify({'code': 0, 'data': json.loads(CACHE["tokens"]["username"]), 'msg': 'successfully registered and logged in'})
+
     global jwt_key
     is_sign_up = False
     is_match = False
@@ -199,6 +207,7 @@ def v1_login():
         is_ok = PG_Insert('users', [x for x in form], [("'{}'").format(x) for x in form.values()])
         if (is_ok):
             token = get_jwt_token(username)
+            CACHE["tokens"][username] = token
             return jsonify({'code': 0, 'data': token, 'msg': 'successfully registered and logged in'})
         else:
             return jsonify({'code': 500, 'data': token, 'msg': 'database error'})
@@ -212,6 +221,7 @@ def v1_login():
     is_ok = PG_Exec('UPDATE users SET last_login_at = \'{}\' WHERE username = \'{}\''.format(form['last_login_at'], username))
     if (is_ok):
         token = get_jwt_token(username)
+        CACHE["tokens"][username] = token
         return jsonify({'code': 0, 'data': token, 'msg': 'successfully registered and logged in'})
     else:
         return jsonify({'code': 500, 'data': '', 'msg': 'error'})
@@ -265,7 +275,12 @@ def mp_coffee_jscode2session():
 @auth_required
 def mp_coffee_get_labels():
     username = get_jwt_username(request.headers.get('Authorization'))
+
+    if username in CACHE["labels"]:
+        return jsonify({'code': 0, 'data': json.loads(CACHE["labels"]["username"]), 'msg': ''})
+
     for row in PG_Select_to_array("SELECT labels FROM mp_coffee WHERE openid = '{}'".format(username)):
+        CACHE["labels"][username] = row[0]
         return jsonify({'code': 0, 'data': json.loads(row[0]), 'msg': ''})
 
     labels = [{
@@ -281,6 +296,7 @@ def mp_coffee_get_labels():
     data['labels'] = json.dumps(labels)
     data['create_at'] = datetime.datetime.utcfromtimestamp(time.time())
     PG_Insert('mp_coffee', [x for x in data], [("'{}'").format(x) for x in data.values()])
+    CACHE["labels"][username] = labels
     return jsonify({'code': 0, 'data': labels, 'msg': ''})
 
 @app.route('/api/v1/mp/coffee/labels', methods=['POST'])
@@ -291,6 +307,7 @@ def mp_coffee_edit_labels():
         return jsonify({'code': 400, 'data': {}, 'msg': 'Input parameter error'})
 
     username = get_jwt_username(request.headers.get('Authorization'))
+    CACHE["labels"][username] = jsonData['labels']
     is_ok = PG_Exec('UPDATE mp_coffee SET labels = \'{}\' WHERE openid = \'{}\''.format(json.dumps(jsonData['labels']), username))
     if (is_ok):
         return jsonify({'code': 0, 'data': '', 'msg': ''})
